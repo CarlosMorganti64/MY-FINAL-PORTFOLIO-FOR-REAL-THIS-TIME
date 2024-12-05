@@ -159,3 +159,57 @@ footer {
     background-color:rgba(15,10,2,1.00);
     color: burlywood;
 }
+.art-gallery1 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(252,163,85,1.00);
+}
+.art-gallery2 {
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(215,111,21,1.00);
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.art-item {
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+.art-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: rgba(15,10,2,1.00);
+    border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(15,10,2,1.00);
+}
+.socials2 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+	background-color: darkorange;
+}
+
+.socials2 img {
+    width: 30px;
+    height: 30px;
+}
