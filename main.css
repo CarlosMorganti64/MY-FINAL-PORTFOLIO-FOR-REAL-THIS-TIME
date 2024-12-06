@@ -303,6 +303,7 @@ footer {
     align-items: center;
     margin-top: 30px;
 }
+
 .socials-title {
     text-align: center; 
     font-size: 24px;
@@ -310,27 +311,20 @@ footer {
     color: rgba(15,10,2,1.00);
     margin-bottom: 20px; 
 }
+
 .socials-focused a {
-    text-align: center;
+    text-align: center; 
     color: rgba(15,10,2,1.00);
     text-decoration: none;
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.socials-focused a:hover {
-    transform: scale(1.1);
-    color: rgba(252, 163, 85, 1.00);
 }
 
 .socials-focused img {
     width: 80px; 
     height: 80px;
     margin-bottom: 10px;
-    transition: transform 0.3s ease;
-}
-
-.socials-focused img:hover {
-    transform: rotate(10deg) scale(1.2);
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .socials-focused p {
@@ -338,4 +332,5 @@ footer {
     font-size: 18px;
     font-weight: bold;
     color: rgba(15,10,2,1.00);
+    text-align: center; 
 }
