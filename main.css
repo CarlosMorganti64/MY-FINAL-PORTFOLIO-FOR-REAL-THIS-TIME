@@ -238,10 +238,10 @@ footer {
 /* About Section */
 .about-content {
    display: flex;
-    flex-direction: column; /* Stack the image and text vertically */
-    align-items: center;    /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    text-align: center;     /* Center the text */
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center;
+    text-align: center;    
     gap: 20px;        
     min-height: 100vh;
 	margin: 0 auto;
@@ -296,3 +296,46 @@ footer {
     font-size: 18px;
     margin-bottom: 10px;
 } 
+.socials-focused {
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.socials-title {
+    text-align: center; 
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(15,10,2,1.00);
+    margin-bottom: 20px; 
+}
+.socials-focused a {
+    text-align: center;
+    color: rgba(15,10,2,1.00);
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socials-focused a:hover {
+    transform: scale(1.1);
+    color: rgba(252, 163, 85, 1.00);
+}
+
+.socials-focused img {
+    width: 80px; 
+    height: 80px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.socials-focused img:hover {
+    transform: rotate(10deg) scale(1.2);
+}
+
+.socials-focused p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(15,10,2,1.00);
+}
