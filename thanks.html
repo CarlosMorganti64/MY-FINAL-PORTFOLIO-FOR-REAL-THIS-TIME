@@ -35,7 +35,31 @@
       <a href="index.html" class="home-button">Return to Home</a>
     </section>
   </main>
-<div class="socials">
+
+	<div class="review">
+	<h1>Did you like my website?</h1>
+<p>Put a little review here :) </p>
+
+<script>
+function reaction(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "HAPPY.png"
+  } else {
+    pic = "SAD.png"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="HAPPY.png" width="100" height="100">
+
+<p>
+<button type="button" onclick="reaction(1)">No</button>
+<button type="button" onclick="reaction(0)">Yes</button>
+		</p>
+	</div>
+	<div class="socials">
                <a href="https://www.instagram.com/pizzrole64/profilecard/?igsh=MXExcXgzeXhicWtkcQ==" target="_blank"><img src="INSTA.png" alt="Instagram"></a>
                <a href="https://x.com/pizzrole?s=21&t=mfGvUem7N925ZukmDsTN6Qn" target="_blank"><img src="TWITTER.png" alt="Twitter"></a>
                <a href="https://youtube.com/@pizzrole?si=qtM5xYf2nYJrj-gl" target="_blank"><img src="YOUTUBE.png" alt="Youtube"></a>

@@ -368,3 +368,47 @@ footer {
   color: rgba(15,10,2,1.00);
   transform: scale(1.05);
 }
+.review {
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin: 20px auto;
+  max-width: 500px; 
+}
+
+.review h1 {
+  font-size: 36px;
+  color: rgba(15, 10, 2, 1.00);
+  margin-bottom: 20px;
+}
+
+.review p {
+  font-size: 18px;
+  color: burlywood;
+  margin-bottom: 20px;
+}
+
+.review img {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.review button {
+  background-color: rgba(15, 10, 2, 1.00);
+  color: burlywood;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review button:hover {
+  background-color: burlywood;
+  color: rgba(15, 10, 2, 1.00);
+}
