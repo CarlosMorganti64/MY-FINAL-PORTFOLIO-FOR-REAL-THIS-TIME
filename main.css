@@ -368,22 +368,3 @@ footer {
   color: rgba(15,10,2,1.00);
   transform: scale(1.05);
 }
-
-.secret {
-  background-color:rgba(230,146,51,0.79);
-  padding: 40px;
-  border-radius: 20px;
-}
-.secret h1 {
-  font-size: 36px;
-  color: rgba(15, 10, 2, 1.00);
-  margin-bottom: 30px;
-}
-.secret p {
-  font-size: 14px;
-  margin-bottom: 30px;
-}
-.secret img {
-    width: 150px;
-    height: 150px;
-}
